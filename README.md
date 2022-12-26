@@ -6,12 +6,16 @@ Tool to manage pilvio.com platform.
 ### Linux
 Download the latest release from github.com:
 ```bash
+export RELEASE="0.1.2"
+export OS="linux"
+export ARC="amd64"
+
 wget https://github.com/pilvio-com/pioadmin/releases/download/${RELEASE}/pioadmin_${RELEASE}_${OS}_${ARCH}.tar.gz -O - |tar zx
 
-mv pioadmin_* pioadmin
 chmod +x pioadmin
-mv pioadmin to /usr/local/bin
+mv pioadmin /usr/local/bin
 ```
+Update the exported variables according to you system.
 
 ### Mac OSX
 
